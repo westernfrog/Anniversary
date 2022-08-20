@@ -5,7 +5,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl);
 });
 
-const audio1 = new Audio("songs/red.webm");
+const audio1 = new Audio("songs/red.mp3");
 const audio2 = new Audio("songs/orange.mp3");
 const audio3 = new Audio("songs/yellow.mp3");
 const audio4 = new Audio("songs/vibrate.mp3");
